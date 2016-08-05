@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.software55.app.mileageapp.MainActivity">
+    tools:context="com.software55.app.mileageapp.MainActivity"
+    android:background="@drawable/splatter_background">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,6 +33,13 @@
             android:onClick="doSomeThing"
             android:layout_gravity="center_horizontal"
             android:text="@string/second_screen"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/zombie_icon" />
 
     </LinearLayout>
 
