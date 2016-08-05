@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MileageApp</string>
+    <string name="second_screen">Second Screen</string>
 </resources>

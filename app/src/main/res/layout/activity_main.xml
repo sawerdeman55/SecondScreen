@@ -31,7 +31,7 @@
             android:id="@+id/btn_first"
             android:onClick="doSomeThing"
             android:layout_gravity="center_horizontal"
-            android:text="Second Screen"/>
+            android:text="@string/second_screen"/>
 
     </LinearLayout>
 
